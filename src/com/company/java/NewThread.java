@@ -11,7 +11,7 @@ public class NewThread extends  Thread {
     @Override
     public void run() {
         try {
-            for (int i = 0; i > 0; i--) {
+            for (int i = 5; i > 0; i--) {
                 System.out.println("Child Thread: " + i);
 
                 Thread.sleep(1000);
